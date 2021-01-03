@@ -1,10 +1,11 @@
 {
   "name": "npm_public_test",
   "version": "0.1.0",
+  "description": "My package description",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build --target lib --name npm-public-test src/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -15,6 +16,13 @@
     "@vue/cli-service": "~4.5.0",
     "vue-template-compiler": "^2.6.11"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shagent007/npm_public_test.git"
+  },
+  "author": "shagent007",
+  "license": "MIT",
+  "homepage": "https://github.com/shagent007/npm_public_test#readme",
   "browserslist": [
     "> 1%",
     "last 2 versions",
